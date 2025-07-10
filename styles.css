@@ -1,0 +1,51 @@
+.inter-second {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-main {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sheared style */
+.primary-btn {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
+}
+
+.c-head {
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.bannar {
+    padding: 265px 265px 150px 265px;
+    text-align: center;
+}
+
+header {
+    background-image: url('Assets/Hero-bg.png');
+}
