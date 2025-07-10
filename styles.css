@@ -76,3 +76,33 @@ header {
 .action-details {
     padding: 62px 100px 62px 0px;
 }
+
+.value-num {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.value-des {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+.pro-heading {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.pro-main {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin: 141px 159px 137px  137px;
+    padding: 50px 142px;
+    text-align: center;
+}
+.values {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
