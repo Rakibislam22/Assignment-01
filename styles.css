@@ -23,6 +23,10 @@
     padding: 12px 36px;
 }
 
+.main-bg-color {
+    background-color: #F5F8FF;
+}
+
 .logo {
     font-size: 34px;
     font-weight: 900;
@@ -105,4 +109,52 @@ header {
     justify-content: space-around;
     align-items: center;
     justify-items: center;
+}
+.get-title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: px;
+}
+
+.get {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 200px;
+}
+.ll {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+input[type="text"],input[type="email"]{
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    border: none;  
+}
+
+textarea {
+    height: 135px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    border: none;
+}
+input[type="submit"] {
+    width: 100%;
 }
