@@ -49,3 +49,30 @@ nav {
 header {
     background-image: url('Assets/Hero-bg.png');
 }
+
+.action {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-des {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action-img img{
+    border-radius: 48px;
+}
+.actions-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 160px;
+    align-items: center;
+
+}
+
+.action-details {
+    padding: 62px 100px 62px 0px;
+}
