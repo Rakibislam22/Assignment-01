@@ -209,4 +209,63 @@ input[type="submit"] {
     padding-right: 50px;
 }
 
+.bonus {
+    margin: 137px 151px;
 
+}
+
+.b-head {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.poster {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.poster-de {
+    padding: 24px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-items: center;
+}
+
+.image img{
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.poster-h {
+    font-size: 24px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.poster-des {
+    font-size: 16px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.poster-h {
+    margin-bottom: 0px;
+}
+
+.name {
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 0px;
+}
+
+.date {
+    font-size: 16px;
+    color: rgba(179, 179, 179, 1);
+    margin-top: 0px;
+}
