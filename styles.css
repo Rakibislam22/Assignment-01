@@ -1,15 +1,15 @@
 .inter-second {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .raleway-main {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Sheared style */
@@ -45,6 +45,7 @@ nav {
     font-weight: bold;
     color: #252432;
 }
+
 .bannar {
     padding: 265px 265px 150px 265px;
     text-align: center;
@@ -66,9 +67,10 @@ header {
     color: rgba(37, 36, 50, 0.5);
 }
 
-.action-img img{
+.action-img img {
     border-radius: 48px;
 }
+
 .actions-items {
     display: flex;
     justify-content: space-between;
@@ -85,11 +87,14 @@ header {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
+    margin-bottom: 0px;
 }
+
 .value-des {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     padding: 0;
+    margin-top: 0px;
 }
 
 .pro-heading {
@@ -97,55 +102,49 @@ header {
     font-weight: bold;
     color: #252432;
 }
+
 .pro-main {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
-    margin: 141px 159px 137px  137px;
+    margin: 141px 159px 137px 137px;
     padding: 50px 142px;
     text-align: center;
 }
+
 .values {
     display: flex;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
 }
-.get-title{
-    font-size: 70px;
+
+.get-title {
+    font-size: 97px;
     font-weight: bold;
     color: #000000;
-    padding-left: px;
+    max-width: 550px;
+
 }
 
 .get {
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-left: 120px;
-    margin-right: 200px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .ll {
     font-size: 18px;
     color: #000000;
     margin-bottom: 10px;
 }
 
-input[type="text"],input[type="email"]{
+input[type="text"],
+input[type="email"] {
     height: 70px;
-    width: 100%;
-    border-radius: 10px;
-    background-color: white;
-    color: rgba(0, 0, 0, 0.5);
-    display: block;
-    padding: 10px 20px;
-    margin-bottom: 19px;
-    font-size: 20px;
-    border: none;  
-}
-
-textarea {
-    height: 135px;
-    width: 100%;
+    width: 490px;
     border-radius: 10px;
     background-color: white;
     color: rgba(0, 0, 0, 0.5);
@@ -155,6 +154,59 @@ textarea {
     font-size: 20px;
     border: none;
 }
-input[type="submit"] {
-    width: 100%;
+
+textarea {
+    height: 135px;
+    width: 490px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    border: none;
 }
+
+input[type="submit"] {
+    width: 530px;
+    margin-top: 10px;
+}
+
+/* footer */
+
+.footer-title {
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0px;
+}
+
+.foot-des ,.foot-down{
+    color: rgba(137, 135, 161, 1);
+}
+
+.foot-down ul {
+    list-style: none;
+}
+.foot-down ul a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+.mail-foot {
+    text-align: center;
+    padding: 104px 450px;
+    background-color: white;
+}
+
+.foot-down ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-down {
+    margin: 0px;
+    padding-right: 50px;
+}
+
+
