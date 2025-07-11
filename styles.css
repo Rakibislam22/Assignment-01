@@ -274,3 +274,32 @@ input[type="submit"] {
     color: rgba(179, 179, 179, 1);
     margin-top: 0px;
 }
+
+/* Optional section */
+.opt-heding {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.opt-des {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.optional {
+    text-align: center;
+    margin: 0px 150px 110px 150px;
+    padding: 70px 150px;
+    background-color: white;
+    border-radius: 14px;
+}
+
+.optional img {
+    border-radius: 48px;
+    padding-top: 20px;
+}
+
+
+/*    T h e    E n d   */
