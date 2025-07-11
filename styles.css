@@ -22,6 +22,11 @@
     border-radius: 10px;
     padding: 12px 36px;
 }
+.primary-btn:hover {
+  background-color: #4e93c0; 
+  transform: scale(1.035); /* slightly grow the button */
+}
+
 
 .main-bg-color {
     background-color: #F5F8FF;
